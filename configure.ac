@@ -59,7 +59,7 @@ AC_PREREQ([2.69])
 # in source files.
 #
 # Set pkg_version for a default hard-coded version number.
-m4_define(pkg_version, 0.0.1)
+m4_define(pkg_version, 1.0.0)
 
 AC_INIT([MGE make check library], m4_esyscmd([ \
 	git describe --always 1>/dev/null 2>/dev/null \
