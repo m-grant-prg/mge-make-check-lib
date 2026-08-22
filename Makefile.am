@@ -14,8 +14,8 @@
 ACLOCAL_AMFLAGS = -I m4
 
 
-SUBDIRS = src/prg/tests/shellcheck
-SUBDIRS += src/prg/run-tests
+SUBDIRS = src/tests/shellcheck
+SUBDIRS += src/run-tests
 
 
 doc_DATA = AUTHORS ChangeLog COPYING NEWS README

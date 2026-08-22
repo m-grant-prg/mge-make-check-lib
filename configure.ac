@@ -323,8 +323,8 @@ AC_MSG_NOTICE(processing output files)
 
 # Project Makefiles to create.
 AC_CONFIG_FILES([Makefile
-		src/prg/tests/shellcheck/Makefile
-		src/prg/run-tests/Makefile])
+		src/tests/shellcheck/Makefile
+		src/run-tests/Makefile])
 
 AC_OUTPUT
 
